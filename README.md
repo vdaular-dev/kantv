@@ -176,9 +176,16 @@ build apk by latest Android Studio IDE
 
 <h2>snapshot (English)</h2>
 
-TBD
 
+<h2>TBD</h2>
 
+### Roadmap
+
+<h2>TBD</h2>
+
+### Defects
+
+<h2>TBD</h2>
 
 
 ### Support
