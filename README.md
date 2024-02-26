@@ -6,11 +6,11 @@ KanTV("Kan", aka Chinese PinYin "Kan" or Chinese HanZi "看" or English "watch/l
 
 - Record online TV to automatically generate videos (usable for short video creators to generate short video materials but pls respect IPR)
 
-- Watch local media (movies, videos, music, etc.) on your mobile phone
+- Watch local media (movies, videos, music, etc.) on Android-based mobile phone
 
 - Set up a custom playlist and then use this software to watch the content of the custom playlist
 
-- Performance benchmark for mobile phone
+- Performance benchmark for Android-based mobile phone
 
 - realtime subtitle(English / Chinese) with online TV (by ![DeepSpeech](https://github.com/zhouwg/DeepSpeech)  /  ![whisper.cpp](https://github.com/zhouwg/whisper.cpp))
 
