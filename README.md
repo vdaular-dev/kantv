@@ -197,7 +197,7 @@ TBD
 
 Many/sincerely thanks to all contributors of the great open source community, especially all original authors and all contributors of the great Linux & Android & FFmpeg and other excellent projects. 
 
-The KanTV application software has used the following open-source projects. Thanks to the following open-source software projects:
+The KanTV has used the following open-source projects:
 <ul>
  	<li><a href="http://ffmpeg.org/" target="_blank" rel="noopener">FFmpeg</a></li>
  	<li><a href="https://blog.google/products/android/" target="_blank" rel="noopener">Android</a></li>
@@ -223,6 +223,8 @@ The KanTV application software has used the following open-source projects. Than
  	<li><a href="https://nginx.org/en/" target="_blank" rel="noopener">Nginx</a></li>
  	<li>......</li>
 </ul>
+
+
 
 required features are based on or derives from projects below:
 
