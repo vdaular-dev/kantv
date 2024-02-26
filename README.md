@@ -14,6 +14,12 @@ KanTV("Kan", aka Chinese PinYin "Kan" or Chinese HanZi "看" or English "watch/l
 
 - realtime subtitle(English / Chinese) with online TV (by ![DeepSpeech](https://github.com/zhouwg/DeepSpeech)  /  ![whisper.cpp](https://github.com/zhouwg/whisper.cpp), not implemented currently)
 
+- real-time advertisement analysis(not implemented currently)
+
+- real-time illegal advertisement removal(not implemented currently)
+
+- other device-side AI feature(not implemented currently)
+
 - UI refactor
 
 - ......
