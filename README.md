@@ -142,10 +142,12 @@ git checkout kantv
 Build apk by latest Android Studio IDE.
 
 This apk follows the principles of 'minimum permissions' and 'do not collect unnecessary user data'. When installing/using for the first time on an Android phone, only the following two permissions are required：
-<ul>
- 	<li>Access to storage is needed to generate necessary temporary files</li>
- 	<li>Access to device information is required to obtain current phone network status information, distinguishing whether the current network is Wi-Fi or mobile data when playing online TV</li>
-<ul>
+
+- Access to storage is required to generate necessary temporary files
+- Access to device information is required to obtain current phone network status information, distinguishing whether the current network is Wi-Fi or mobile data when playing online TV
+
+
+
 
 #### Run kantv apk on real Android phone
 
