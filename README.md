@@ -92,7 +92,7 @@ echo "export PATH=/home/`whoami`/.local/bin:\$PATH" >> ~/.bashrc
   
   [Android NDK-r18b](https://developer.android.com/ndk/downloads)
   
-  [Android NDK-r21e(LTS)](https://developer.android.com/ndk/downloads)
+  [Android NDK-r21e](https://developer.android.com/ndk/downloads)
 
 
 - vim settings
