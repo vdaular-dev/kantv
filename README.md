@@ -62,7 +62,34 @@ sudo apt-get install android-tools-adb android-tools-fastboot autoconf \
         python3-pycryptodome python3-pyelftools python3-serial \
         rsync unzip uuid-dev xdg-utils xterm xz-utils zlib1g-dev
 
+sudo apt-get install python3-pip -y
+sudo apt-get install indent -y
+pip3 install meson ninja
+
+echo "export PATH=/home/`whoami`/.local/bin:\$PATH" >> ~/.bashrc
+
 ```
+
+- bazel
+  
+  download ![bazel-3.1.0](https://github.com/bazelbuild/bazel/releases?page=5) and install bazel manually
+
+```
+  wget https://github.com/bazelbuild/bazel/releases/download/3.1.0/bazel-3.1.0-linux-x86_64
+```
+```
+  sudo ./bazel-3.1.0-installer-linux-x86_64.sh
+```
+
+- Android NDK & Android Studio
+
+  download and install Android Studio and Android NDK manually
+  
+  [Android Studio 4.2.1](https://developer.android.google.cn/studio)
+  
+  [Android NDK-r18b](https://developer.android.com/ndk/downloads)
+  
+  [Android NDK-r21e(LTS)](https://developer.android.com/ndk/downloads)
 
 
 - vim settings
@@ -91,11 +118,6 @@ match ForbiddenWhitespace /\s\+$\|\t/
 autocmd InsertEnter * match ForbiddenWhitespace /\t\|\s\+\%#\@<!$/
 
 ```
-
-
-- [Android NDK-r21e(LTS)](https://developer.android.com/ndk/downloads)
-- [Android Studio 4.2.1](https://developer.android.google.cn/studio)
-- [Gradle 6.6.1](https://gradle.org/releases)
 
 #### Fetch source codes
 
@@ -165,7 +187,7 @@ TBD
 
 ### Contribution
 
- If you want to contribute to project DeepSpeech, be sure to review the [opening issues](https://github.com/zhouwg/kantv/issues?q=is%3Aopen+is%3Aissue).
+ If you want to contribute to project KanTV, be sure to review the [opening issues](https://github.com/zhouwg/kantv/issues?q=is%3Aopen+is%3Aissue).
 
  We use [GitHub issues](https://github.com/zhouwg/kantv/issues) for tracking requests and bugs, please see [how to submit issue in this project ](https://github.com/zhouwg/kantv/issues/1).
 
