@@ -201,7 +201,7 @@ build apk by latest Android Studio IDE
 
  We use [GitHub issues](https://github.com/zhouwg/kantv/issues) for tracking requests and bugs, please see [how to submit issue in this project ](https://github.com/zhouwg/kantv/issues/1).
 
- 
+ **English** is preferred in this project. thank your for your cooperation and appreciate your understanding.
 
 ### Acknowledgement
 
