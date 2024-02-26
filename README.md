@@ -197,9 +197,7 @@ build apk by latest Android Studio IDE
 
 ### Contribution
 
- If you want to contribute to project KanTV, be sure to review the [opening issues](https://github.com/zhouwg/kantv/issues?q=is%3Aopen+is%3Aissue).
-
- We use [GitHub issues](https://github.com/zhouwg/kantv/issues) for tracking requests and bugs, please see [how to submit issue in this project ](https://github.com/zhouwg/kantv/issues/1).
+ If you want to contribute to project KanTV, be sure to review the [opening issues](https://github.com/zhouwg/kantv/issues?q=is%3Aopen+is%3Aissue).We use [GitHub issues](https://github.com/zhouwg/kantv/issues) for tracking requests and bugs, please see [how to submit issue in this project ](https://github.com/zhouwg/kantv/issues/1).
 
  **English** is preferred in this project. thank your for your cooperation and appreciate your understanding.
 
