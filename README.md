@@ -193,34 +193,6 @@ This apk follows the principles of 'minimum permissions' and 'do not collect unn
 <h2>TBD</h2>
 
 
-
-### Known defects
-
-- 本地文件播放SEEK有问题(UI进度条与SDK代码的处理需要完善)
-- 使用H265/H266/AV1编码录制生成的文件有音视频同步问题以及稳定性问题(多种复杂状态切换/复杂操作可能会导致ANR(Application Not Responding，界面无响应)或软件异常退出)
-- FFmpeg引擎与美国大型/巨型商业公司Google公司旗下不少全职雇员用纯Java语言开发维护的开源项目Exoplayer引擎对比问题不少(这是开源项目的通病:能用但是距离商业产品还有不短的路)
-- FFmpeg引擎高分辨率实时流长时间播放有音视频同步问题(Exoplayer基本没有音视频同步问题)
-- FFmpeg长时间播放出现缓冲的次数明显偏多(Exoplayer基本没有缓冲/卡顿现象)
-- FFmpeg引擎的首帧加载时间偏长(Exoplayer首帧加载非常快)
-- FFmpeg引擎播放HLS(HTTP Live Streaming)格式的在线电视时，没有做到根据网络带宽自适应码率(Exoplayer自适应码率做的比较好)．这个问题与长时间播放出现卡顿等问题的根本原因(root cause)一样：FFmpeg里的HLS实现只是一个基本的/能用的参考实现，距离商业产品中的HLS实现有一定的距离；需要用C/C++改进/重写FFmpeg中的HLS实现
-
-### Roadmap
-
-- 改进AV1/H266编码录制在线电视的录制性能与软件稳定性
-- 基于C/C++语言的HLS(HTTP Live Streaming)代码改进/完善
-- 参考微信Android手机版本中视频号直播界面中的投屏UI与功能，投屏功能开发(不做Andriod电视版本，坚定all in mobile，只做移动终端上的KanTV)
-- 本地文件播放与UI相关问题
-- UI改进
-   - 将普通用户不太常用的”自定义节目单”功能放到”我的”界面中，主页面空置的按钮留给v1.2.0之后的版本将要开发的”视频编辑”，主界面保持５个按钮:在线电视，本地媒体，视频编辑，性能评测，我的
-   - 学习研究微信Android手机版本的UI(界面)布局与设计然后对UI(界面)做一些改进
-   - 提高GIMP制图技能，改进软件中的一些显的不太专业的图标，向微信Android手机版看齐
-- 稳定性相关问题
-- 性能优化相关问题
-- Android平板版本
-- 改进完善自定义节目单功能，为专业用户提供更好的扩展
-- 局域网文件浏览与播放
-
-
 ### Support
 
 - Please do not send e-mail to me. Public technical discussion on github is preferred.
