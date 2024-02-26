@@ -274,7 +274,7 @@ Licensed under LGPLv2.1 or later
 ```
 
 ```
-Copyright (c) 2021 -  maintainer of kantv project
+Copyright (c) 2021 -  maintainer of project KanTV
 
 Licensed under Apachev2.0 or later
 ```
