@@ -12,7 +12,7 @@ KanTV("Kan", aka Chinese PinYin "Kan" or Chinese HanZi "看" or English "watch/l
 
 - Performance benchmark for Android-based mobile phone
 
-- realtime subtitle(English / Chinese) with online TV (by ![DeepSpeech](https://github.com/zhouwg/DeepSpeech)  /  ![whisper.cpp](https://github.com/zhouwg/whisper.cpp))
+- realtime subtitle(English / Chinese) with online TV (by ![DeepSpeech](https://github.com/zhouwg/DeepSpeech)  /  ![whisper.cpp](https://github.com/zhouwg/whisper.cpp), not implemented currently)
 
 - UI refactor
 
